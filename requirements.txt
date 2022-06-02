@@ -1,2 +1,0 @@
-streamlit==0.80.0
-plotly==5.8.0
