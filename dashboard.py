@@ -28,8 +28,8 @@ if continent_choice != "All":
 
 fig = px.scatter(
     filtered_df,
-    x="gdpPercap",
-    y="lifeExp",
+    x="GDP PER CAPITA",
+    y="LIFE EXP.",
     size="pop",
     color="continent",
     hover_name="country",
