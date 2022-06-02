@@ -6,9 +6,9 @@ with year_col:
     year_choice = st.slider(
         "What year would you like to examine?",
         min_value=1952,
-        max_value=2007,
+        max_value=2020,
         step=5,
-        value=2007,
+        value=2020,
     )
 with continent_col:
     continent_choice = st.selectbox(
