@@ -1,6 +1,7 @@
 import streamlit as st
 import plotly.express as px
 
+l=[]
 year_col, continent_col, log_x_col = st.columns([5, 5, 5])
 with year_col:
     year_choice = st.slider(
